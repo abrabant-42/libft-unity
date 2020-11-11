@@ -28,8 +28,8 @@ FUNCS=()
 # Parse the command line arguments and do basic setup
 source scripts/parse.sh
 
-# Parses the libft path
-LIBFT_PATH=$(grep -i "path" libft_unity.config | cut -d= -f 2)
+# Parses the libft pat
+LIBFT_PATH=$(eval echo $(grep -i "path" libft_unity.config | cut -d= -f 2))
 
 #Check if the path is correct
 if [ ! -d "$LIBFT_PATH" ]; then
