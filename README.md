@@ -8,13 +8,12 @@ testing API.
 
 ## Usage
 
-The framework is pretty easy to use: you'll only need to deal with the `run.sh`
-bash script. If you need to debug things about your build process
-you may want to use the Makefile, however important setup is automatically done
-by the script.
+1) Clone this repo.
+2) Edit the configuration file. (`libft_unity.config`)
+3) ./run.sh
 
 You can run `./run.sh help` to get a list of all the available commands and
-options. For example:
+options. Below are the main commands you'll eventually need:
 
 ```bash
 # Will run the tests corresponding to the part1 of the libft project
@@ -38,7 +37,11 @@ $> ./run.sh ft_atoi ft_substr
 Note that the [unity](http://www.throwtheswitch.org/unity) test API should
 be automatically cloned the first time you run the script.
 
-
 When running a test runner, a logfile will be generated under the `logs/` directory.
 It only stores what is printed on `stdout` when you run the `./run.sh` command, but
 this way you can keep track of your progress if you want to.
+
+## Troubleshooting
+
+If you run into an issue, please open a new github issue so I can track it
+easily. By the way, if your code is not working this is not an issue.
