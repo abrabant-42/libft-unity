@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Makefile                                           :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: abrabant <abrabant@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/10/05 14:27:08 by abrabant          #+#    #+#              #
-#    Updated: 2020/10/27 16:32:32 by abrabant         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 # Only clang compiler is enabled, because the ft_print function is supposed to
 # run on MacOS before all. You can always change the compiler here.
 

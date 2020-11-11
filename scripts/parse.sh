@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 PART1=false
 PART2=false
