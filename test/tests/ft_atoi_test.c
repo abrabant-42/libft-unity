@@ -85,7 +85,7 @@ void	ft_atoi_invalid_format4(void)
 
 void	ft_atoi_trailing_space(void)
 {
-	const char	*toparse = "        -45         ";
+	const char	*toparse = "\t\f   \v\t\t  -45     \n\r\r    ";
 	const int	ref = atoi(toparse);
 	const int	ft = ft_atoi(toparse);
 
