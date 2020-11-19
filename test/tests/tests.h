@@ -14,6 +14,7 @@ void	ft_substr_out_of_bounds(void);
 void	ft_substr_zero_len(void);
 void	ft_substr_index_zero(void);
 void	ft_substr_last_index(void);
+void	ft_substr_start_greater_than_or_equal_to_strlen(void);
 
 /* FT_STRLWR */
 

@@ -149,6 +149,7 @@ int	main(void)
 	RUN_TEST(ft_substr_zero_len);
 	RUN_TEST(ft_substr_index_zero);
 	RUN_TEST(ft_substr_last_index);
+	RUN_TEST(ft_substr_start_greater_than_or_equal_to_strlen);
 
 	RUN_TEST(ft_strjoin_simple_test);
 
